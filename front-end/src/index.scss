@@ -1,0 +1,54 @@
+.registerPage {
+  height: 100vh;
+  background-color: #eeeeee !important;
+  padding-top: 1rem;
+  .formContainer {
+    max-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    background-color: #fff;
+    h1 {
+      text-align: center;
+      font-size: 5rem;
+      font-weight: 400;
+    }
+  }
+}
+// ============= Drawers ==============
+.css-3pxmmn {
+  display: block !important;
+}
+.Drawer {
+  background-color: #fff;
+  max-width: 65rem !important;
+  margin: 2rem auto;
+  padding: 1rem;
+  p {
+    text-align: center;
+  }
+}
+
+* {
+  direction: rtl;
+  text-align: right;
+}
+// ============= bootstrap ============
+
+// change the theme
+$theme-colors: (
+  "primary": #51266e,
+  "primaryNotSelected": #5b416d,
+  "primarySelected": #37194b,
+);
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+.btn-primarySelected {
+  font-weight: bold;
+}
+.btn-primarySelected:focus,
+.btn-primarySelected.focus {
+  background-color: #37194b;
+}
+.btn-primarySelected:hover {
+  background-color: #37194be7;
+}
